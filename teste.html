@@ -6,19 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-   <label>item</label>
+    <label>item</label>
     <input type="text" id="item">
-    <button onclick="addItem()" >Enviar</button>
+    <button onclick="addItem">Enviar</button>
     <p id="resposta"></p>
 
     <script>
-        let lista = ['arroz', 'feijão'];
-        
+        let lista = ['Arroz', 'Feijão'];
+
         resposta.innerHTML = lista;
 
         function addItem() {
-            lista.push(item.velue);
-            resposta.innerHTML = lista
+            lista.push(item.value);
+            reposta.innerHTML = lista
         }
     </script>
 </body>
